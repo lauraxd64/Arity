@@ -1,0 +1,18 @@
+
+body {
+	font-family: 'Audiowide', cursive;
+	font-family: 'Quicksand', sans-serif;
+	cursor: none;
+	overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+	display: none;       
+}
+
+
+header {
+    opacity: 1;
+	z-index: 1;
+}
+

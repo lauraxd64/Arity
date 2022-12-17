@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Audiowide', cursive;
+	font-family: 'Quicksand', sans-serif;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.Video_Info{
+    width: 100%;
+    height: 100vh;
+}
+
+.Enterbtn{
+	width: 5%;
+    height: 5%;
+	font-family: 'Quicksand', sans-serif;
+	position: absolute;
+    left: 5%;
+    top: 5%;
+	font-size: 35px;
+	cursor: pointer;
+	text-transform: uppercase;
+	z-index: 3;
+	background: linear-gradient(rgb(255, 239, 207),rgb(255, 255, 255));
+	-webkit-background-clip: text;
+	color: transparent;
+	border: 1px solid;
+	border-image: linear-gradient(to bottom, rgb(255, 239, 207),rgb(255, 255, 255))1;
+    opacity: 0;
+}
